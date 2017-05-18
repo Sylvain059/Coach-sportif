@@ -260,16 +260,96 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+
+
+
 /*
 CSS CUSTOM
 =====================================================================*/
-body, body a{
+/**{
+  border:1px solid red;
+}*/
+
+html{
+  font-family: 'Roboto', helvetica,  sans-serif;
 }
 
+
+
+/*
+HEADER
+=====================================================================*/
 header{
+  background-color: black;
+}
+.icon-bar{
+  background: black;
+}
+
+.navbar-toggle{
+  background-color: white;
+}
+
+header, header a, footer, footer a{
+  color: white;
 }
 
 .logo{
   width:100px;
   height: 30px;;
+}
+
+
+
+/*
+MAIN
+======================================================================*/
+
+main{
+}
+
+
+
+/*
+FOOTER
+=====================================================================*/
+footer{
+  background-color: black;
+}
+
+footer section, footer li, footer h2, footer ul{
+  text-align: center;
+}
+
+footer ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li{
+  margin: 10px 0;
+}
+footer .socialNetwork li{
+  margin: 20px 0;
+}
+
+footer h2{
+  font-weight: bold;
+}
+
+footer .lieux li a:hover, footer .fMenu li a:hover{
+  /*Personnalisation des liens au passage de la souris*/
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+footer li img{
+  width: 48px;
+  height: 48px;
 }
