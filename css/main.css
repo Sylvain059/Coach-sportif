@@ -263,8 +263,10 @@ textarea {
 /*
 CSS CUSTOM
 =====================================================================*/
+body, body a{
+}
+
 header{
-  background-color:whitesmoke;;
 }
 
 .logo{
