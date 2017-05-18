@@ -272,7 +272,7 @@ CSS CUSTOM
   border:1px solid red;
 }*/
 
-html{
+body{
   font-family: 'Roboto', helvetica,  sans-serif;
 }
 
@@ -306,8 +306,13 @@ header, header a, footer, footer a{
 /*
 MAIN
 ======================================================================*/
-
 main{
+  background-color: whitesmoke;
+}
+
+main span{
+  font-weight: bold;
+  font-size: 18px;
 }
 
 
