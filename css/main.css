@@ -279,7 +279,7 @@ CSS CUSTOM
 }*/
 
 body {
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -329,6 +329,16 @@ main span {
 
 main slider {
     margin-bottom: 25px;
+}
+
+main .form {
+    background-color: white;
+}
+
+main .map,
+main .calendar {
+    width: 100%;
+    height: 400px;
 }
 
 
